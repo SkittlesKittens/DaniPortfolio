@@ -16,13 +16,13 @@ export const PersonalInfo: AboutMeData = {
 
 export const games: Game[] = [
   {
-    name: "GAME_NAME",
-    description: "GAME_DESCRIPTION",
-    genres: ["GAME_GENRE", "GAME_GENRE..."],
+    name: "Hospital Simulator",
+    description: "A Real time Simulation game where you manage a hospital, Add furniture, Manage staff, Do your best to maintain income and make sure your patients get treatment.",
+    genres: ["Simulation", "Strategy"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
+      { source: LinkImageSource.Github, url: "https://github.com/SkittlesKittens/Honours-Project" },
       { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
     ],
     media: [
@@ -44,7 +44,6 @@ export const games: Game[] = [
     ],
     media: [
       { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
       { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },

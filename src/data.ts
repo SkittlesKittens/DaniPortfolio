@@ -1,8 +1,8 @@
 import { AboutMeData, Game, GameEngine, LinkImageSource, MediaType, Platform } from "./types";
 
 export const PersonalInfo: AboutMeData = {
-  name: "Dani_Murphy",
-  role: "Game_Developer",
+  name: "Dani Murphy",
+  role: "Game Developer",
   introduction: "Hi I am Dani welcome to my portfolio I am an avid gamer who loves working through projects with fellow creators I have been developing games for 6 years and am always looking to start a new project.",
     description: "A Scotland based Games Developer with a Bachelors from the University of the West of Scotland",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
@@ -33,13 +33,13 @@ export const games: Game[] = [
     ],
   },
   {
-    name: "GAME_NAME",
-    description: "GAME_DESCRIPTION",
-    genres: ["GAME_GENRE", "GAME_GENRE..."],
+    name: "Infuser Loser",
+    description: "A game focused on infusing your arm with elements to allow you to complete puzzles and defeat enemies.",
+    genres: ["Adventure", "Puzzle", "Exploration", "Story-Based"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
+      { source: LinkImageSource.Github, url: "https://github.com/SkittlesKittens/Elemental-2D-Game" },
       { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
     ],
     media: [

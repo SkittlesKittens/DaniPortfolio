@@ -86,12 +86,12 @@ const ContactMe: React.FC = () => {
         <Title>Contact Me</Title>
         <Input
           type="text"
-          placeholder="Your Name"
+          placeholder="Dani Murphy"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
         <TextArea
-          placeholder="Your Message"
+          placeholder="Contact"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
